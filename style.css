@@ -1,66 +1,10 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Gilroy", sans-serif;
+*{
+    font-family: 'Gilroy';
 }
 
-html,
-body {
-  height: 100%;
-  width: 100%;
-}
-
-.main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-  background: url(./img/bb2.png);
-  /* background-color: rgb(180, 239, 220); */
-}
-.gamebox {
-  overflow: hidden;
-  height: 80%;
-  width: 80%;
-  border-radius: 6px;
-  background-color: #ffffffa9;
-}
-.panel {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  justify-content: space-evenly;
-  gap: 5%;
-  height: 85px;
-  width: 100%;
-  background-color: rgba(32, 178, 171, 0.86);
-}
-.pnl {
-  display: flex;
-  gap: 10px;
-}
-.pnl h2 {
-  font-size: 22px;
-  color: black;
-}
-.box {
-  padding: 4px 12px;
-  border-radius: 15%;
-  display: flex;
-  background-color: #fff;
-  font-size: 19px;
-}
-.pnlbtm {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 9px;
-  padding: 9px 28px;
-  height: calc(100% - 85px);
-}
 .bubble {
   cursor: pointer;
+  font-weight: bold;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -68,158 +12,19 @@ body {
   height: 30px;
   width: 30px;
   border-radius: 50%;
-  background-color: rgb(99, 134, 238);
+  background-color: rgb(101, 135, 237);
   color: white;
 }
 
-.gameover {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 2rem;
-  text-align: center;
-  color: #fff;
+.btn:hover{
+    border: 2px solid rgb(167, 86, 243);
+    background-color: blueviolet;
 }
-.gameover p {
-  font-size: 3.5rem;
-}
-.btn {
-  padding: 15px;
-  font-size: 1.25rem;
-  border-radius: 20px;
-  background-color: rgb(167, 86, 243);
-  color: white;
-  margin-top: 20px;
-  cursor: pointer;
-  border: 2px solid blueviolet;
-  transition: 0.3s ease-in-out;
-}
-.btn:hover {
-  background-color: blueviolet;
-  border: 2px solid rgb(167, 86, 243);
-}
-.inst {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: rgba(32, 200, 192, 0.277);
-  border-radius: 10px;
-  padding: 30px;
-  text-align: center;
-  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.493);
-}
-.inst ul {
-  margin-top: 20px;
-  font-size: 1.5rem;
-  line-height: 3.25rem;
-  text-align: justify !important;
-  list-style: none;
-  list-style-position: inside;
-}
-.inst ul li::before {
-  content: "\25C6 ";
-  color: blueviolet;
-  margin-right: 10px;
-}
-.inst ul li::marker {
-  color: blueviolet;
-}
-.inst h1 {
-  text-align: center;
-}
-.main > h1 {
-  position: absolute;
-  background: linear-gradient(to right, red, blue);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  font-style: italic;
-  top: 2%;
-  font-size: 1.85rem;
+.btn{
+    background-color: rgb(167, 86, 243);
+    border: 2px solid blueviolet;
 }
 
-@media (min-width: 820px) and (max-width: 1110px) {
-  .inst ul {
-    font-size: 1.4rem;
-    line-height: 2.75rem;
-  }
-}
-@media (min-width: 300px) and (max-width: 1110px) {
-  .inst ul li br {
-    display: none;
-  }
-  .btn {
-    font-size: 1rem;
-  }
-}
-
-@media (min-width: 583px) and (max-width: 1110px) {
-  .inst ul {
-    font-size: 1.3rem;
-    line-height: 2.5rem;
-  }
-}
-@media (min-width: 300px) and (max-width: 582px) {
-  .inst ul {
-    font-size: 1.2rem;
-    line-height: 2.2rem;
-  }
-  .inst h1 {
-    font-size: 1.5rem;
-  }
-  /* .inst li:last-of-type {
-    font-size: 1.2rem;
-  } */
-  .pnl h2 {
-    font-size: 1.2rem;
-  }
-  .box {
-    font-size: 15px;
-  }
-  .pnl h2 {
-    font-size: 1rem;
-    padding: 0 7px;
-  }
-  .pnl {
-    gap: 0;
-  }
-  .panel {
-    height: 75px;
-  }
-  .box {
-    font-size: 13px;
-    padding: 4px 8px;
-  }
-}
-/* @media (max-width: 728px) {
-  .inst ul {
-    font-size: 1rem;
-  }
-} */
-@media (max-width: 325px) {
-  .inst ul {
-    line-height: 1.6rem;
-    font-size: 0.92rem;
-  }
-  .inst h1 {
-    font-size: 1.2rem;
-  }
-  .inst {
-    padding: 23px;
-  }
-}
-@media (min-width: 325px) and (max-width: 400px) {
-  .inst {
-    padding: 15px 24px;
-  }
-  .inst h1 {
-    font-size: 1.2rem;
-  }
-}
-@media (max-width: 770px) {
-  .gamebox {
-    height: 75%;
-  }
+.gradient-bg{
+   background: linear-gradient(to bottom right, #edf50b 12%, #16a31f 95% );
 }
