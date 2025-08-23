@@ -48,7 +48,7 @@ Bubble-Rush/
 
 <img width="1919" height="902" alt="play-time" src="https://github.com/user-attachments/assets/99556869-85df-449d-b411-55c5f318ca77" />
 
-
+<br>
 
 <img width="1919" height="904" alt="game-over" src="https://github.com/user-attachments/assets/9a80b492-c097-48ab-bde6-2d0a290fd957" />
 
@@ -63,9 +63,6 @@ Bubble-Rush/
   <a href="https://www.linkedin.com/in/soumyadip-dan-538320303/" target="_blank" title="LinkedIn">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" width="36" height="36"/>
   </a>
-  <a href="https://github.com/sdan-07" target="_blank" title="GitHub">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="36" height="36"/>
-  </a>
 </p>
 
 
@@ -78,6 +75,6 @@ Bubble-Rush/
 - Font Awesome
 - Gilroy Font from GitHack CDN
 
-> *Made with ❤️ for players who click too fast — Thanks to SD*
+> *Made with ❤️ for players who click too fast — Crafted by SD*
 
 
