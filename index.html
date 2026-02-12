@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble Rush</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel='stylesheet'
+        href='https://gistcdn.githack.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="./images/bubble-logo.png" type="image/x-icon">
+</head>
+
+<body class="bg-[url('images/bb2.png')] selection:bg-cyan-500 selection:text-white">
+    <div class="main items-center justify-center flex flex-col ">
+        <h1 class="text-center py-3 sm:py-2 text-3xl sm:text-4xl mt-3 font-semibold italic bg-gradient-to-r from-red-500 to-blue-700 bg-clip-text text-transparent backdrop-blur-[2px] rounded-2xl ml-6">Bubble Rush</h1>
+
+        <div class="gamebox m-5 sm:w-10/12 overflow-hidden rounded-2xl">
+            <div
+                class="inst border-2 border-slate-300 sm:scale-110 md:scale-none text-center px-5 py-8 sm:py-12 shadow-2xl rounded-[15px] mt-5 sm:mt-14 lg:mx-[20rem]  backdrop-blur-3xl">
+                <h1 class="font-bold text-xl sm:text-2xl md:text-3xl sm:mt-[-12px]">How to Play</h1>
+                <ul class="mt-7 text-lg md:text-2xl flex flex-col gap-5">
+                    <li class="before:content-['\25C6'] before:text-[blueviolet] before:mr-2 ">Match the correct number
+                        as shown in Hit</li>
+                    <li class="before:content-['\25C6'] before:text-[blueviolet] before:mr-2 ">After each correct match,
+                        the Score will be <br> increased to 10</li>
+                    <li class="before:content-['\25C6'] before:text-[blueviolet] before:mr-2 ">After each incorrect
+                        match, the Score will be <br> decreased to 5</li>
+                </ul>
+                <button
+                    class="btn btn-start md:text-xl border-2 duration-300 ease-in-out border-[blueviolet] text-white py-2 px-6 rounded-xl mt-8 md:mt-12">Let's
+                    Go</button>
+            </div>
+
+            <div
+                class="panel flex text-lg sm:text-xl gap-12 py-3 sm:py-5 px-5 sm:px-7 bg-green-400 justify-evenly items-center">
+                <div class="pnl flex flex-col scale-90 sm:scale-none sm:flex-row gap-2 sm:gap-4">
+                    <h2 class="flex items-center font-bold">Score</h2>
+                    <div id="scoreval" class="box bg-white text-center py-1 sm:px-3.5 rounded-lg">0</div>
+                </div>
+                <div class="pnl flex flex-col scale-90 sm:scale-none sm:flex-row gap-2 sm:gap-4">
+                    <h2 class="flex items-center font-bold">Timer</h2>
+                    <div id="time" class="box bg-white text-center py-1 sm:px-3.5 rounded-lg">60</div>
+                </div>
+                <div class="pnl flex flex-col scale-90 sm:scale-none sm:flex-row gap-2 sm:gap-4">
+                    <h2 class="flex items-center font-bold justify-center">Hit</h2>
+                    <div id="makehit" class="box bg-white text-center py-1 px-3 sm:px-3.5 rounded-lg">0</div>
+                </div>
+            </div>
+
+            <div
+                class="pnlbtm items-center justify-center p-4 flex flex-wrap gap-3 sm:gap-6 h-[30rem] sm:h-[31rem] backdrop-blur-2xl">
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="bg-gray-200 text-gray-700 text-center absolute bottom-0 w-full md:px-2 py-2 mt-36 md:mt-16 sm:mt-16 text-xs sm:text-sm">
+        <div id="content" class="px-3 sm:px-5 flex flex-col md:flex-row gap-4 md:gap-0 md:justify-center">
+            <div id="tagline" class="md:order-2 md:mr-24 lg:mr-[-32px]">Made with ❤️ for players who click too fast <br class="md:hidden"> - <a class="underline" href="https://www.linkedin.com/in/soumyadip-dan-538320303"></a> Crafted by SD</div>
+            <!-- <div id="cpy" class="md:order-1 md:text-left">© 2025 Bubble Rush Inc. All rights reserved.</div> -->
+            <!-- <div id="social-media" class="md:order-3 items-center justify-center flex gap-6 px-2">
+                <a href="https://www.linkedin.com/in/soumyadip-dan-538320303/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/sdan-07"><i class="fa-brands fa-github"></i></a>
+            </div> -->
+        </div>
+    </footer>
+
+    
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

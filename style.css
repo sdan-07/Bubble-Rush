@@ -1,0 +1,30 @@
+*{
+    font-family: 'Gilroy';
+}
+
+.bubble {
+  cursor: pointer;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 23px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: rgb(101, 135, 237);
+  color: white;
+}
+
+.btn:hover{
+    border: 2px solid rgb(167, 86, 243);
+    background-color: blueviolet;
+}
+.btn{
+    background-color: rgb(167, 86, 243);
+    border: 2px solid blueviolet;
+}
+
+.gradient-bg{
+   background: linear-gradient(to bottom right, #edf50b 12%, #16a31f 95% );
+}
