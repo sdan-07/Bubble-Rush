@@ -51,6 +51,21 @@ Bubble-Rush/
 
 ---
 
+## 👨‍💻 Author
+
+**Soumyadip Dan**
+
+<p align="left">
+  <a href="https://github.com/sdan-07" target="_blank">
+    <img src="https://img.icons8.com/ios-glyphs/30/000000/github.png"/>
+  </a>
+  <a href="https://www.linkedin.com/in/soumyadip-dan-538320303" target="_blank">
+    <img src="https://img.icons8.com/color/30/000000/linkedin.png"/>
+  </a>
+</p>
+
+---
+
 ## ❤️ Contributing
 
 Contributions are always welcome!  
