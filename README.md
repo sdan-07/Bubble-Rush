@@ -2,7 +2,8 @@
 
 Welcome to **Bubble Rush** — a fun, fast-paced bubble-popping game built with **HTML, CSS & JavaScript**! Pop bubbles, beat the clock, and chase the highest score 🎯.
 
-## 🚀 Play the live version here 👉 https://sdan-07.github.io/Bubble-Rush/
+## 🚀 Play the live version here  
+👉 https://sdan-07.github.io/Bubble-Rush/
 
 ---
 
